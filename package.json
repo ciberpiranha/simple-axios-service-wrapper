@@ -1,0 +1,20 @@
+{
+  "name": "simple-axios-service-wrapper",
+  "version": "1.0.0",
+  "description": "A simple axios-as-service wrapper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ciberpiranha/simple-axios-service-wrapper.git"
+  },
+  "keywords": ["axios", "service", "axios-service", "wrapper"],
+  "author": "Samuel Martinez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ciberpiranha/simple-axios-service-wrapper/issues"
+  },
+  "homepage": "https://github.com/ciberpiranha/simple-axios-service-wrapper#readme"
+}
