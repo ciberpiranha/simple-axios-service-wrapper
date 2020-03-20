@@ -4,17 +4,27 @@
   "description": "A simple axios-as-service wrapper",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+	  "build": "babel ./src -d ./lib",
+	  "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ciberpiranha/simple-axios-service-wrapper.git"
   },
-  "keywords": ["axios", "service", "axios-service", "wrapper"],
+  "keywords": [
+    "axios",
+    "service",
+    "axios-service",
+    "wrapper"
+  ],
   "author": "Samuel Martinez",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ciberpiranha/simple-axios-service-wrapper/issues"
   },
-  "homepage": "https://github.com/ciberpiranha/simple-axios-service-wrapper#readme"
+  "homepage": "https://github.com/ciberpiranha/simple-axios-service-wrapper#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
 }
