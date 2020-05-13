@@ -1,7 +1,7 @@
 {
-  "name": "simple-axios-service-wrapper",
+  "name": "simple-axios-ror-service-wrapper",
   "version": "1.0.0",
-  "description": "A simple axios-as-service wrapper",
+  "description": "A simple axios-as-service wrapper for RoR",
   "main": "index.js",
   "scripts": {
     "build": "npm run lint && babel ./src -d ./lib",
@@ -17,7 +17,12 @@
     "axios",
     "service",
     "axios-service",
-    "wrapper"
+    "wrapper",
+    "Ror",
+    "ruby",
+    "rails",
+    "csrf-token",
+    "csrf"
   ],
   "author": "Samuel Martinez",
   "license": "MIT",

@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 export default {
-  async ajax (url, method, data) {
+  async ajax(url, method, data) {
     const token = document.head.querySelector('meta[name="csrf-token"]')
     return axios({
       method: method,
