@@ -1,6 +1,6 @@
 {
   "name": "simple-axios-ror-service-wrapper",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A simple axios-as-service wrapper for RoR",
   "main": "index.js",
   "scripts": {
@@ -31,15 +31,16 @@
   },
   "homepage": "https://github.com/ciberpiranha/simple-axios-service-wrapper#readme",
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.7.0",
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
     "eslint": "^6.8.0",
     "eslint-config-standard": "^14.1.1",
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
-    "mocha": "^7.1.1",
+    "mocha": "^7.1.2",
     "nyc": "^15.0.1"
   },
   "dependencies": {
