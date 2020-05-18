@@ -9,6 +9,7 @@ To install via npm
 
 Then add in js 
 `import http from 'simple-axios-ror-service-wrapper'`
+
 To use do:
 ```
 http.ajax (url, method, data).then(function (response) {
