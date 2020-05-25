@@ -30,6 +30,7 @@ http.ajax (url, method, data).then(function (response) {
 
 ## TODO
 * Better tests
+* Add options in params with default options and not allowed options
 * Skip adding header if no CSRF token
-* Adding dynamic response functions
+* Adding dynamic callback response functions
 * Give full axios powers to package
